@@ -23,3 +23,5 @@ By examining the decompiled code and understanding how the program checked for t
 
 ## Video Demonstration
 For a detailed walkthrough of this project, you can watch the [video demonstration](https://youtu.be/5I3TOtLiP04) on YouTube.
+[![Alternate Text](http://img.youtube.com/vi/5I3TOtLiP04/0.jpg)](http://www.youtube.com/watch?v=5I3TOtLiP04 "BootCon Final Project - Ghidra Demonstration")
+
