@@ -12,7 +12,7 @@ I imported the 'crack me' file into Ghidra by dragging and dropping it into the 
 ## Finding the Password
 Upon the completion of Ghidra's analysis, I searched for the string "nope, that's not it", which was the response given when an incorrect password was entered into the 'crack me' program. I found references to this string in the code and examined the function where it was used.
 
-In the decompiled code, I noticed an if statement where a specific data value was being stored in a variable called 'm-e-m-cmp'. This value had to match the data value for the program to output "congrats, you got the password right". I then looked at where this data value was written to find the correct password.
+In the decompiled code, I noticed an if statement where a specific data value was being stored in a function called 'm-e-m-cmp'. This value had to match the data value for the program to output "congrats, you got the password right". I then looked at where this data value was written to find the correct password.
 
 ## Conclusion
 By examining the decompiled code and understanding how the program checked for the correct password, I was able to find the correct password and successfully reverse engineer the program. This project showcased my ability to use Ghidra for software reverse engineering.
